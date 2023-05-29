@@ -45,8 +45,12 @@ footer {
 
 article {
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
 }
 
 .produtos {
     display: flex;
+    flex-wrap: wrap;
 }
